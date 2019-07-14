@@ -1,0 +1,26 @@
+{
+	"name": "uikit-docs-vuepress",
+	"version": "0.1.0",
+	"author": {
+		"name": "Daniil Pronin",
+		"email": "mail@grawl.ru"
+	},
+	"private": true,
+	"engines": {
+		"node": "^10.16.0",
+		"yarn": "^1.17.2"
+	},
+	"scripts": {
+		"dev": "vuepress dev docs",
+		"build": "vuepress build docs"
+	},
+	"dependencies": {
+		"he": "^1.2.0",
+		"marked": "^0.7.0",
+		"uikit": "^3.1.6",
+		"uniqid": "^5.0.3"
+	},
+	"devDependencies": {
+		"vuepress": "^1.0.2"
+	}
+}
