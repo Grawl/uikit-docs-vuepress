@@ -1,4 +1,3 @@
-const { example } = require('./util')
 module.exports = {
 	dest: 'dist',
 	themeConfig: {
