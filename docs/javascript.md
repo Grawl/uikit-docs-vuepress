@@ -135,7 +135,7 @@ The options names must be in their camel cased representation, e.g. `show-on-up`
 
 After initialisation you can get your component by calling the same initialisation function, omitting the options parameter.
 
-```javscript
+```javascript
 // Sticky is now the prior initialised components
 var sticky = UIkit.sticky('.sticky');
 ```
