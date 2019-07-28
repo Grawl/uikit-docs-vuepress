@@ -27,7 +27,7 @@ To apply this component, add the `.uk-table` class to a `<table>` element.
 </table>
 ```
 
-```html
+::: demo html
 <table class="uk-table">
     <caption>Table Caption</caption>
     <thead>
@@ -57,7 +57,7 @@ To apply this component, add the `.uk-table` class to a `<table>` element.
         </tr>
     </tbody>
 </table>
-```
+:::
 
 ***
 

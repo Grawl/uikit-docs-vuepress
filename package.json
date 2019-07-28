@@ -21,6 +21,7 @@
 		"uniqid": "^5.0.3"
 	},
 	"devDependencies": {
-		"vuepress": "^1.0.2"
+		"vuepress": "^1.0.2",
+		"vuepress-plugin-demo-code": "^0.3.5"
 	}
 }

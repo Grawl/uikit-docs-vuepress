@@ -1,5 +1,8 @@
 module.exports = {
 	dest: 'dist',
+	plugins: [
+		'demo-code'
+	],
 	themeConfig: {
 		logo: '/images/uikit-logo.svg',
 		nav: [
