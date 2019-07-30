@@ -12,6 +12,7 @@
 	},
 	"scripts": {
 		"dev": "vuepress dev docs",
+		"debug": "vuepress dev docs --debug --no-clear-screen",
 		"build": "vuepress build docs"
 	},
 	"dependencies": {

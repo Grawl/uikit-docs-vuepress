@@ -11,9 +11,9 @@ module.exports.example = code => {
 	<ul class='uk-switcher uk-margin'>
 		<li>${code}</li>
 		<li>
-			<pre>
-				<code>${hljs.highlight('html', code, true).value}</code>
-			</pre>
+			<pre><code>${
+				hljs.highlight('html', code, true).value
+			}</code></pre>
 		</li>
 	</ul>
 	<div class='uk-position-top-right uk-margin-small-top'>
