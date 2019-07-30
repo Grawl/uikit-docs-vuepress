@@ -63,7 +63,7 @@ So, all `example` have replaced with `html` in all code blocks.
 - [ ] Replace version in `installation.md`
 - [ ] Integrate `utils.js` to make usage examples work
 - [ ] Pull [uikit-site#135](https://github.com/uikit/uikit-site/pull/135) Added Tests section
-- [ ] Pull [uikit-site#113](https://github.com/uikit/uikit-site/pull/113) Organize components by function
+- [x] Pull [uikit-site#113](https://github.com/uikit/uikit-site/pull/113) Organize components by function
 - [ ] Design theme to make it looks 1:1 as other UIkit pages?
 
 ## Project setup
