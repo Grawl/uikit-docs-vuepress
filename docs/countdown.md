@@ -25,7 +25,7 @@ Add the following classes to child elements to apply the necessary functionality
 </div>
 ```
 
-```html
+```example
 <div class="uk-grid-small uk-child-width-auto uk-margin" uk-grid uk-countdown="date: {%isodate%}">
     <div>
         <div class="uk-countdown-number uk-countdown-days"></div>
@@ -60,7 +60,7 @@ To insert a separator between each number, use the `.uk-countdown-separator` cla
 </div>
 ```
 
-```html
+```example
 <div class="uk-grid-small uk-child-width-auto uk-margin" uk-grid uk-countdown="date: {%isodate%}">
     <div>
         <div class="uk-countdown-number uk-countdown-days"></div>
@@ -93,7 +93,7 @@ To add a label to each number, use the `.uk-countdown-label` class.
 <div class="uk-countdown-label">Seconds</div>
 ```
 
-```html
+```example
 <div class="uk-grid-small uk-child-width-auto" uk-grid uk-countdown="date: {%isodate%}">
     <div>
         <div class="uk-countdown-number uk-countdown-days"></div>

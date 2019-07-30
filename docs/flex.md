@@ -21,7 +21,7 @@ To apply the flexbox layout model, use one of the following classes. By default,
 </div>
 ```
 
-```html
+```example
 <div class="uk-flex">
     <div class="uk-card uk-card-default uk-card-body">Item 1</div>
     <div class="uk-card uk-card-default uk-card-body uk-margin-left">Item 2</div>
@@ -49,7 +49,7 @@ These classes define the horizontal alignment of flex items and distribute the s
 </div>
 ```
 
-```html
+```example
 <div class="uk-flex uk-flex-center">
     <div class="uk-card uk-card-default uk-card-body">Item 1</div>
     <div class="uk-card uk-card-default uk-card-body uk-margin-left">Item 2</div>
@@ -76,7 +76,7 @@ UIkit provides a number of responsive flex classes for horizontal alignment. Bas
 </div>
 ```
 
-```html
+```example
 <div class="uk-flex uk-flex-center@m uk-flex-right@l">
     <div class="uk-card uk-card-default uk-card-body">Item 1</div>
     <div class="uk-card uk-card-default uk-card-body uk-margin-left">Item 2</div>
@@ -102,7 +102,7 @@ These classes define the vertical alignment of flex items. By default, flex item
 <div class="uk-flex uk-flex-middle"></div>
 ```
 
-```html
+```example
 <div class="uk-flex uk-flex-middle uk-text-center">
   <div class="uk-card uk-card-default uk-card-body">Item 1</div>
    <div class="uk-card uk-card-default uk-card-body uk-margin-left">Item 2<br>...</div>
@@ -127,7 +127,7 @@ These classes define the axis that flex items are placed on and their direction.
 <div class="uk-flex uk-flex-column"></div>
 ```
 
-```html
+```example
 <div class="uk-flex uk-flex-column uk-width-1-3">
    <div class="uk-card uk-card-default uk-card-body">Item 1</div>
    <div class="uk-card uk-card-default uk-card-body uk-margin-top">Item 2</div>
@@ -162,7 +162,7 @@ The following classes modify the alignment of wrapping flex items.
 <div class="uk-flex uk-flex-wrap uk-flex-wrap-around"></div>
 ```
 
-```html
+```example
 <div class="uk-flex uk-flex-wrap uk-flex-wrap-around uk-background-muted uk-height-medium">
     <div class="uk-width-1-3 uk-card uk-card-default uk-card-body uk-card-small">Item 1</div>
     <div class="uk-width-1-2 uk-card uk-card-default uk-card-body uk-card-small uk-margin-left">Item 2</div>
@@ -195,7 +195,7 @@ By default, flex items are laid out according to the source order. To display a 
 </div>
 ```
 
-```html
+```example
 <div class="uk-flex">
    <div class="uk-card uk-card-default uk-card-body uk-flex-last uk-margin-left">Item 1</div>
    <div class="uk-card uk-card-default uk-card-body uk-flex-first">Item 2</div>
@@ -221,7 +221,7 @@ To determine how much space a flex item should take up, add one of the following
 
 The Flex component can be combined with a grid from the [Grid component](grid.md).
 
-```html
+```example
 <div class="uk-flex-middle" uk-grid>
     <div class="uk-width-2-3@m">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>

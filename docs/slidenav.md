@@ -11,7 +11,7 @@ To create a navigation with previous and next buttons, just add the `uk-slidenav
 <a href="" uk-slidenav-previous></a>
 ```
 
-```html
+```example
 <a href="#" uk-slidenav-previous></a>
 <a href="#" uk-slidenav-next></a>
 ```
@@ -27,7 +27,7 @@ To increase the size of the slidenav icons, add the `.uk-slidenav-large` class.
 <a href="" class="uk-slidenav-large" uk-slidenav-previous></a>
 ```
 
-```html
+```example
 <a href="#" class="uk-slidenav-large" uk-slidenav-previous></a>
 <a href="#" class="uk-slidenav-large" uk-slidenav-next></a>
 ```
@@ -45,7 +45,7 @@ To display a conjoint slidenav, wrap the slidenav items inside a `<div>` element
 </div>
 ```
 
-```html
+```example
 <div class="uk-slidenav-container">
     <a href="" uk-slidenav-previous></a>
     <a href="" uk-slidenav-next></a>
@@ -73,7 +73,7 @@ Use the `.uk-light` or `.uk-dark` class from the [Inverse component](inverse.md)
 
 **Note** You can also apply the [Visibility component](visibility.md#show-on-hover), so that the slidenav only appears on hover.
 
-```html
+```example
 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow>
 
     <ul class="uk-slideshow-items">

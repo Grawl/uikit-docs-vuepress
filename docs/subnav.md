@@ -21,7 +21,7 @@ To add list items without a link, use a `<span>` element instead of an `<a>`. Al
 </ul>
 ```
 
-```html
+```example
 <ul class="uk-subnav" uk-margin>
     <li class="uk-active"><a href="#">Active</a></li>
     <li><a href="#">Item</a></li>
@@ -42,7 +42,7 @@ Add the `.uk-subnav-divider` class to separate menu items with lines.
 <ul class="uk-subnav uk-subnav-divider">...</ul>
 ```
 
-```html
+```example
 <ul class="uk-subnav uk-subnav-divider" uk-margin>
     <li class="uk-active"><a href="#">Active</a></li>
     <li><a href="#">Item</a></li>
@@ -60,7 +60,7 @@ Add the `.uk-subnav-pill` class to highlight the active menu item with a backgro
 <ul class="uk-subnav uk-subnav-pill">...</ul>
 ```
 
-```html
+```example
 <ul class="uk-subnav uk-subnav-pill" uk-margin>
     <li class="uk-active"><a href="#">Active</a></li>
     <li><a href="#">Item</a></li>
@@ -83,7 +83,7 @@ You can also use a dropdown from the [Dropdown component](dropdown.md) with a su
 </ul>
 ```
 
-```html
+```example
 <ul class="uk-subnav uk-subnav-pill" uk-margin>
     <li class="uk-active"><a href="#">Active</a></li>
     <li><a href="#">Item</a></li>

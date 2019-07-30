@@ -10,6 +10,6 @@ This component applies a specially styled area to create a placeholder space, wh
 <div class="uk-placeholder"></div>
 ```
 
-```html
+```example
 <div class="uk-placeholder uk-text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
 ```

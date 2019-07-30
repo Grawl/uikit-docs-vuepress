@@ -27,7 +27,7 @@ The Comment component consists of the comment itself, a comment header, includin
 </article>
 ```
 
-```html
+```example
 <article class="uk-comment">
     <header class="uk-comment-header uk-grid-medium uk-flex-middle" uk-grid>
         <div class="uk-width-auto">
@@ -57,7 +57,7 @@ To style a comment differently, for example to highlight it as the admin's comme
 <article class="uk-comment uk-comment-primary">...</article>
 ```
 
-```html
+```example
 <article class="uk-comment uk-comment-primary">
     <header class="uk-comment-header uk-grid-medium uk-flex-middle" uk-grid>
         <div class="uk-width-auto">
@@ -96,7 +96,7 @@ Add the `.uk-comment-list` class to a `<ul>` element to create a list of comment
 </ul>
 ```
 
-```html
+```example
 <ul class="uk-comment-list">
     <li>
         <article class="uk-comment uk-visible-toggle" tabindex="-1">

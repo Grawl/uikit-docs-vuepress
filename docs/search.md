@@ -19,7 +19,7 @@ The Search component consists of a search form and the search input itself.
 
 By default, the search has no additional styling. In this example we are using the `.uk-search-default` modifier.
 
-```html
+```example
 <form class="uk-search uk-search-default">
     <input class="uk-search-input" type="search" placeholder="Search...">
 </form>
@@ -38,7 +38,7 @@ To create a search icon, add the `uk-search-icon` attribute to a `<span>` elemen
 </form>
 ```
 
-```html
+```example
 <div class="uk-margin">
     <form class="uk-search uk-search-default">
         <span uk-search-icon></span>
@@ -67,7 +67,7 @@ To enable an action, use an `<a>` or `<button>` element to create the icon.
 </form>
 ```
 
-```html
+```example
 <div class="uk-margin">
     <form class="uk-search uk-search-default">
         <a href="" uk-search-icon></a>
@@ -93,7 +93,7 @@ To apply the default search styling, add the `.uk-search-default` class.
 <form class="uk-search uk-search-default">...</form>
 ```
 
-```html
+```example
 <form class="uk-search uk-search-default">
     <span uk-search-icon></span>
     <input class="uk-search-input" type="search" placeholder="Search...">
@@ -110,7 +110,7 @@ To increase the size of the search, for example when creating an overlay search,
 <form class="uk-search uk-search-large">...</form>
 ```
 
-```html
+```example
 <form class="uk-search uk-search-large">
     <span uk-search-icon></span>
     <input class="uk-search-input" type="search" placeholder="Search...">
@@ -127,7 +127,7 @@ A search can be used inside a navbar from the [Navbar component](navbar.md). Jus
 <form class="uk-search uk-search-navbar">...</form>
 ```
 
-```html
+```example
 <nav class="uk-navbar-container" uk-navbar>
     <div class="uk-navbar-left">
 
@@ -152,7 +152,7 @@ To apply a hover state to the search icon when using an `<a>` or `<button>` elem
 <a class="uk-search-toggle" href="" uk-search-icon></a>
 ```
 
-```html
+```example
 <a class="uk-search-toggle" href="" uk-search-icon></a>
 ```
 
@@ -172,7 +172,7 @@ The search icon can be used as a toggle to open the search inside a navbar – a
 
 ### Overlay
 
-```html
+```example
 <nav class="uk-navbar-container uk-margin" uk-navbar>
 
     <div class="nav-overlay uk-navbar-left">
@@ -209,7 +209,7 @@ The search icon can be used as a toggle to open the search inside a navbar – a
 
 ### Drop
 
-```html
+```example
 <nav class="uk-navbar-container uk-margin" uk-navbar>
     <div class="uk-navbar-left">
 
@@ -238,7 +238,7 @@ The search icon can be used as a toggle to open the search inside a navbar – a
 
 ### Dropdown
 
-```html
+```example
 <nav class="uk-navbar-container uk-margin" uk-navbar>
     <div class="uk-navbar-left">
 
@@ -276,7 +276,7 @@ The search icon can be used as a toggle to open the search inside a navbar – a
 
 ### Modal
 
-```html
+```example
 <nav class="uk-navbar uk-navbar-container uk-margin">
     <div class="uk-navbar-left">
 

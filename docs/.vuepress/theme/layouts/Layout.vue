@@ -151,5 +151,5 @@ export default {
 }
 </script>
 
-<style src="prismjs/themes/prism-tomorrow.css"></style>
+<style src="highlight.js/styles/atom-one-light.css"></style>
 <style src="uikit/dist/css/uikit.css"></style>

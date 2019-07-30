@@ -20,7 +20,7 @@ To define the widths of the slider items, use the [Width component](width.md). E
 </div>
 ```
 
-```html
+```example
 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
 
     <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
@@ -110,7 +110,7 @@ To apply a gutter to the slider items, use the [Grid component](grid.md) and add
 </div>
 ```
 
-```html
+```example
 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
 
     <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m uk-grid">
@@ -192,7 +192,7 @@ By default, items of the slider always are aligned to the left. To center the li
 <div uk-slider="center: true">...</div>
 ```
 
-```html
+```example
 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: true">
 
     <ul class="uk-slider-items uk-grid">
@@ -266,7 +266,7 @@ To loop through a set of slides instead of single items, just add `sets: true` t
 <div uk-slider="sets: true">...</div>
 ```
 
-```html
+```example
 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="sets: true">
 
     <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m">
@@ -355,7 +355,7 @@ If there is no item specific content in the navigation items, you can also add t
 </div>
 ```
 
-```html
+```example
 <div uk-slider>
 
     <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
@@ -440,7 +440,7 @@ To place a navigation outside of a slider, add the `.uk-position-center-left-out
 </div>
 ```
 
-```html
+```example
 <div uk-slider>
 
     <div class="uk-position-relative">
@@ -527,7 +527,7 @@ Use the [Cover component](cover.md) so that images cover the whole item area and
 </div>
 ```
 
-```html
+```example
 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: true">
 
     <ul class="uk-slider-items uk-grid uk-grid-match" uk-height-viewport="offset-top: true; offset-bottom: 30">
@@ -577,7 +577,7 @@ Use the [Cover component](cover.md) so that images cover the whole item area and
 
 The slider is not restricted to images. Any content can be used like text, videos, images with text overlays or ken burns effect. Here is an example using the [Card component](card.md).
 
-```html
+```example
 <div uk-slider="center: true">
 
     <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
@@ -675,7 +675,7 @@ Add content overlays using the [Position component](position.md). It allows you 
 
 **Note** To adapt your content for better visibility on each image, add the `.uk-light` or `.uk-dark` class from the [Inverse component](inverse.md) or use the [Overlay](overlay.md) to add any style to the overlay box.
 
-```html
+```example
 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
 
     <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
@@ -766,7 +766,7 @@ The next example defines different in and out animations. The content slides in 
 <div uk-slider-parallax="x: 100,0,0; opacity: 1,1,0">...</div>
 ```
 
-```html
+```example
 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
 
     <ul class="uk-slider-items uk-grid">
@@ -851,7 +851,7 @@ Add `clsActivated: uk-transition-active` to the attribute to trigger transition 
 
 Together with the [Overlay component](overlay.md), content transitions are used to build a classic caption for the slider.
 
-```html
+```example
 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="clsActivated: uk-transition-active; center: true">
 
     <ul class="uk-slider-items uk-grid">
@@ -933,7 +933,7 @@ To toggle transitions on hover, use the `.uk-transition-toggle` class from the [
 </div>
 ```
 
-```html
+```example
 <div uk-slider>
 
     <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-light">

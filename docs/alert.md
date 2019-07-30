@@ -10,7 +10,7 @@ To apply this component, add the `uk-alert` attribute to a block element.
 <div uk-alert></div>
 ```
 
-```html
+```example
 <div uk-alert>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
 ```
 
@@ -26,7 +26,7 @@ To create a close button and enable its functionality, add the `.uk-alert-close`
 </div>
 ```
 
-```html
+```example
 <div uk-alert>
     <a class="uk-alert-close" uk-close></a>
     <h3>Notice</h3>
@@ -47,7 +47,7 @@ There are several style modifiers available. Just add one of the following class
 | `.uk-alert-warning` | Indicates a message containing a warning. |
 | `.uk-alert-danger`  | Indicates an important or error message.  |
 
-```html
+```example
 <div class="uk-alert-primary" uk-alert>
     <a class="uk-alert-close" uk-close></a>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>

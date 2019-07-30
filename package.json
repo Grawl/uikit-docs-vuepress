@@ -15,10 +15,9 @@
 		"build": "vuepress build docs"
 	},
 	"dependencies": {
-		"he": "^1.2.0",
-		"marked": "^0.7.0",
 		"uikit": "^3.1.6",
-		"uniqid": "^5.0.3"
+		"highlight.js": "^9.15.8",
+		"nanoid": "^2.0.3"
 	},
 	"devDependencies": {
 		"vuepress": "^1.0.2"

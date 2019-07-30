@@ -13,7 +13,7 @@ To apply this component, add the `uk-close` attribute to an `<a>` or `<button>` 
 <a href="" uk-close></a>
 ```
 
-```html
+```example
 <button type="button" uk-close></button>
 ```
 
@@ -28,7 +28,7 @@ Add the `.uk-close-large` class for a larger close button.
 <button class="uk-close-large" type="button" uk-close></button>
 ```
 
-```html
+```example
 <button class="uk-close-large" type="button" uk-close></button>
 ```
 
@@ -44,7 +44,7 @@ This is an example of how this component is used with an alert box from the [Ale
 </div>
 ```
 
-```html
+```example
 <div uk-alert>
     <button class="uk-alert-close" type="button" uk-close></button>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
@@ -63,7 +63,7 @@ This is an example of how this component is used with the [Drop component](drop.
 </div>
 ```
 
-```html
+```example
 <div class="uk-inline">
     <button class="uk-button uk-button-default" type="button">Click</button>
     <div uk-drop="mode: click">
@@ -89,7 +89,7 @@ This is an example of how this component is used with the [Modal component](moda
 </div>
 ```
 
-```html
+```example
 <a class="uk-button uk-button-default" href="#modal" uk-toggle>Open modal</a>
 <div id="modal" uk-modal>
     <div class="uk-modal-dialog uk-modal-body">

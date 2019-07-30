@@ -14,7 +14,7 @@ To apply this component, add the `.uk-list` class to an unordered or ordered lis
 </ul>
 ```
 
-```html
+```example
 <ul class="uk-list">
     <li>List item 1</li>
     <li>List item 2</li>
@@ -32,7 +32,7 @@ Add the `.uk-list-bullet` class to display bullets in front of the list items.
 <ul class="uk-list uk-list-bullet">...</ul>
 ```
 
-```html
+```example
 <ul class="uk-list uk-list-bullet">
     <li>List item 1</li>
     <li>List item 2</li>
@@ -50,7 +50,7 @@ Add the `.uk-list-divider` class to separate list items with lines.
 <ul class="uk-list uk-list-divider">...</ul>
 ```
 
-```html
+```example
 <ul class="uk-list uk-list-divider">
     <li>List item 1</li>
     <li>List item 2</li>
@@ -68,7 +68,7 @@ Add zebra-striping to a list using the `.uk-list-striped` class.
 <ul class="uk-list uk-list-striped">...</ul>
 ```
 
-```html
+```example
 <ul class="uk-list uk-list-striped">
     <li>List item 1</li>
     <li>List item 2</li>
@@ -86,7 +86,7 @@ Add the `.uk-list-large` class to increase the spacing between list items. You c
 <ul class="uk-list uk-list-large">...</ul>
 ```
 
-```html
+```example
 <div class="uk-child-width-expand@s" uk-grid>
 
     <div>

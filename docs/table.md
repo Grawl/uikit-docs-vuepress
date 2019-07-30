@@ -27,7 +27,7 @@ To apply this component, add the `.uk-table` class to a `<table>` element.
 </table>
 ```
 
-```html
+```example
 <table class="uk-table">
     <caption>Table Caption</caption>
     <thead>
@@ -69,7 +69,7 @@ Add the `.uk-table-divider` class to display a divider between table rows.
 <table class="uk-table uk-table-divider">...</table>
 ```
 
-```html
+```example
 <table class="uk-table uk-table-divider">
     <thead>
         <tr>
@@ -108,7 +108,7 @@ Add zebra-striping to a table by adding the `.uk-table-striped` class.
 <table class="uk-table uk-table-striped">...</table>
 ```
 
-```html
+```example
 <table class="uk-table uk-table-striped">
     <thead>
         <tr>
@@ -147,7 +147,7 @@ Add the `.uk-table-hover` class to display a hover state on table rows.
 <table class="uk-table uk-table-hover">...</table>
 ```
 
-```html
+```example
 <table class="uk-table uk-table-hover uk-table-divider">
     <thead>
         <tr>
@@ -186,7 +186,7 @@ Add the `.uk-table-small` or `.uk-table-large` class to a table to make it small
 <table class="uk-table uk-table-small">...</table>
 ```
 
-```html
+```example
 <table class="uk-table uk-table-small uk-table-divider">
     <thead>
         <tr>
@@ -225,7 +225,7 @@ To remove the outer padding of the first and last column so that they are flush 
 <table class="uk-table uk-table-justify">...</table>
 ```
 
-```html
+```example
 <table class="uk-table uk-table-justify uk-table-divider">
     <thead>
         <tr>
@@ -260,7 +260,7 @@ To vertically center table content, just add the `.uk-table-middle` class. You c
 <table class="uk-table uk-table-middle">...</table>
 ```
 
-```html
+```example
 <table class="uk-table uk-table-middle uk-table-divider">
     <thead>
         <tr>
@@ -296,7 +296,7 @@ If your table happens to be wider than its container element or would eventually
 </div>
 ```
 
-```html
+```example
 <div class="uk-overflow-auto">
     <table class="uk-table uk-table-small uk-table-divider">
         <thead>
@@ -373,7 +373,7 @@ If you want table columns to stack on small screens, add the `.uk-table-responsi
 <table class="uk-table uk-table-responsive">...</table>
 ```
 
-```html
+```example
 <table class="uk-table uk-table-responsive uk-table-divider">
     <thead>
         <tr>
@@ -420,7 +420,7 @@ To modify the column width or content, you can use one of the following classes.
 <th class="uk-table-shrink"></th>
 ```
 
-```html
+```example
 <table class="uk-table uk-table-divider">
     <thead>
         <tr>
@@ -475,7 +475,7 @@ To optimize the display of table cells and their specific content, you can add o
 <td class="uk-text-nowrap"></td>
 ```
 
-```html
+```example
 <div class="uk-overflow-auto">
     <table class="uk-table uk-table-hover uk-table-middle uk-table-divider">
         <thead>

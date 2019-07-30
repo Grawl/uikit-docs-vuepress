@@ -22,7 +22,7 @@ UIkit.notification('My message', status);
 UIkit.notification('My message', { /* options */ });
 ```
 
-```html
+```example
 <button class="demo uk-button uk-button-default" type="button" onclick="UIkit.notification({message: 'Notification message'})">Click me</button>
 
 ```
@@ -37,7 +37,7 @@ You can use HTML inside your notification message, like an icon from the Icon co
 UIkit.notification("<span uk-icon='icon: check'></span> Message");
 ```
 
-```html
+```example
 <button class="uk-button uk-button-default demo" type="button" onclick="UIkit.notification({message: '<span uk-icon=\'icon: check\'></span> Message with an icon'})">With icon</button>
 
 ```
@@ -63,7 +63,7 @@ UIkit.notification("...", {pos: 'top-right'})
 | `bottom-right`  | `UIkit.notification("...", {pos: 'bottom-right'})`  |
 
 
-```html
+```example
 <p uk-margin>
     <button class="uk-button uk-button-default" type="button" onclick="UIkit.notification({message: 'Top Left...', pos: 'top-left'})">Top Left</button>
     <button class="uk-button uk-button-default" type="button" onclick="UIkit.notification({message: 'Top Center...', pos: 'top-center'})">Top Center</button>
@@ -92,7 +92,7 @@ UIkit.notification("...", {status: 'primary'})
 | `warning` | `UIkit.notification("...", {status:'warning'})` |
 | `danger`  | `UIkit.notification("...", {status:'danger'})`  |
 
-```html
+```example
 <p uk-margin>
     <button class="uk-button uk-button-default demo" type="button" onclick="UIkit.notification({message: 'Primary message...', status: 'primary'})">Primary</button>
     <button class="uk-button uk-button-default demo" type="button" onclick="UIkit.notification({message: 'Success message...', status: 'success'})">Success</button>
@@ -107,7 +107,7 @@ UIkit.notification("...", {status: 'primary'})
 
 You can close all open notifications by calling `UIkit.notification.closeAll()`.
 
-```html
+```example
 <button class="uk-button uk-button-default close" onclick="UIkit.notification.closeAll()">Close All</button>
 
 ```

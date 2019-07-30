@@ -14,7 +14,7 @@ Sections are used to separate the content of a page into differently styled bloc
 
 By default, a section is blank. That is why it is important to add a modifier class for styling. In our example we are using the `.uk-section-muted` class. Normally, the section is the outermost element of a page, so this example doesn't quite reflect the realistic usage of this component.
 
-```html
+```example
 <div class="uk-section uk-section-muted">
     <div class="uk-container">
 
@@ -53,7 +53,7 @@ To apply different background colors and paddings, add one of the following clas
 <div class="uk-section uk-section-primary"></div>
 ```
 
-```html
+```example
 <div class="uk-section uk-section-default">
     <div class="uk-container">
 
@@ -167,7 +167,7 @@ The `.uk-section-primary` and `.uk-section-secondary` classes are extending the 
 <div class="uk-section uk-section-primary uk-preserve-color"></div>
 ```
 
-```html
+```example
 <div class="uk-section uk-section-primary uk-preserve-color">
     <div class="uk-container">
 
@@ -206,7 +206,7 @@ You can add different paddings to each section or remove it altogether.
 | `.uk-section-xlarge`          | Add this class to further increase a section's padding.                                |
 | `.uk-padding-remove-vertical` | Add this class from the [Padding component](padding.md) to remove a section's padding. |
 
-```html
+```example
 <div class="uk-section uk-section-large uk-section-muted">
     <div class="uk-container">
 

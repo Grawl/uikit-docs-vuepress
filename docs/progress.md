@@ -10,7 +10,7 @@ To apply this component, add the `.uk-progress` class to a `<progress>` element.
 <progress class="uk-progress" value="" max=""></progress>
 ```
 
-```html
+```example
 <progress id="js-progressbar" class="uk-progress" value="10" max="100"></progress>
 
 <script>

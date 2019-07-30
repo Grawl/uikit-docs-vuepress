@@ -1,5 +1,24 @@
+const hljs = require('highlight.js')
+const { example } = require('./utils')
 module.exports = {
 	dest: 'dist',
+	extendMarkdown: md => {
+		md.set({
+			highlight: function (str, lang) {
+				if (lang === 'example') {
+					try {
+						return example(str);
+					} catch (__) {}
+				} else if (lang && hljs.getLanguage(lang)) {
+					try {
+						return `<pre class="hljs"><code>${hljs.highlight(lang, str, true).value}</code></pre>`;
+					} catch (__) {}
+				}
+
+				return `<pre class="hljs"><code>${md.utils.escapeHtml(str)}</code></pre>`;
+			}
+		})
+	},
 	themeConfig: {
 		logo: '/images/uikit-logo.svg',
 		nav: [

@@ -10,7 +10,7 @@ To create a badge, just add the `.uk-badge` class to an inline element like `<a>
 <span class="uk-badge"></span>
 ```
 
-```html
+```example
 <span class="uk-badge">1</span>
 <span class="uk-badge">100</span>
 ```

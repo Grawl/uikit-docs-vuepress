@@ -18,7 +18,7 @@ To apply this component, use the following classes.
 </ul>
 ```
 
-```html
+```example
 <div class="uk-width-1-2@s uk-width-2-5@m">
     <ul class="uk-nav uk-nav-default">
         <li class="uk-active"><a href="#">Active</a></li>
@@ -51,7 +51,7 @@ Add the `.uk-parent` class to an item to turn it into a parent. Add the `.uk-nav
 </ul>
 ```
 
-```html
+```example
 <div class="uk-width-1-2@s uk-width-2-5@m">
     <ul class="uk-nav uk-nav-default">
         <li class="uk-active"><a href="#">Active</a></li>
@@ -85,7 +85,7 @@ By default, child menu items are always visible. To apply an accordion effect, j
 <ul class="uk-nav-parent-icon" uk-nav>...</ul>
 ```
 
-```html
+```example
 <div class="uk-width-1-2@s uk-width-2-5@m">
     <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
         <li class="uk-active"><a href="#">Active</a></li>
@@ -123,7 +123,7 @@ When clicking on a parent item, an open one will close, allowing only one open n
 <ul class="uk-nav-parent-icon" uk-nav="multiple: true">...</ul>
 ```
 
-```html
+```example
 <div class="uk-width-1-2@s uk-width-2-5@m">
     <ul class="uk-nav-default uk-nav-parent-icon" uk-nav="multiple: true">
         <li class="uk-active"><a href="#">Active</a></li>
@@ -168,7 +168,7 @@ Add one of the following classes to a list item to create a header or a divider 
 <li class="uk-nav-divider"></li>
 ```
 
-```html
+```example
 <div class="uk-width-1-2@s uk-width-2-5@m">
     <ul class="uk-nav uk-nav-default">
         <li class="uk-nav-header">Header</li>
@@ -190,7 +190,7 @@ Add the `.uk-nav-default` class to give the nav its default style. You can place
 <ul class="uk-nav uk-nav-default">...</ul>
 ```
 
-```html
+```example
 <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s">
     <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
         <li class="uk-active"><a href="#">Active</a></li>
@@ -227,7 +227,7 @@ Add the `.uk-nav-primary` class to give the nav a more distinct styling, for exa
 <ul class="uk-nav uk-nav-primary">...</ul>
 ```
 
-```html
+```example
 <div class="uk-width-1-2@s">
     <ul class="uk-nav-primary uk-nav-parent-icon" uk-nav>
         <li class="uk-active"><a href="#">Active</a></li>
@@ -260,7 +260,7 @@ Add the `.uk-nav-center` class to center nav items. This can be combined with th
 <ul class="uk-nav uk-nav-default uk-nav-center">...</ul>
 ```
 
-```html
+```example
 <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s">
     <ul class="uk-nav-default uk-nav-center uk-nav-parent-icon" uk-nav>
         <li class="uk-active"><a href="#">Active</a></li>
@@ -282,7 +282,7 @@ Add the `.uk-dropdown-nav` class to place a nav inside a default dropdown from t
 </div>
 ```
 
-```html
+```example
 <button class="uk-button uk-button-default" type="button">Hover</button>
 <div uk-dropdown>
     <ul class="uk-nav uk-dropdown-nav">
@@ -309,7 +309,7 @@ Add the `.uk-navbar-dropdown-nav` class to place the nav inside a navbar dropdow
 </div>
 ```
 
-```html
+```example
 <nav class="uk-navbar-container" uk-navbar>
     <div class="uk-navbar-left">
 
@@ -340,7 +340,7 @@ Add the `.uk-navbar-dropdown-nav` class to place the nav inside a navbar dropdow
 
 A nav can be used inside an off-canvas from the [Off-canvas component](offcanvas.md). No modifier class needs to be added.
 
-```html
+```example
 <a href="#offcanvas-slide" class="uk-button uk-button-default" uk-toggle>Open</a>
 
 <div id="offcanvas-slide" uk-offcanvas>

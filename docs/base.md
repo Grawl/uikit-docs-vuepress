@@ -52,7 +52,7 @@ Images and other elements like `<audio>`, `<canvas>`, `<img>`, `<svg>` and `<vid
 
 Resize the browser window to see the responsive behavior of the image.
 
-```html
+```example
 <div class="uk-width-large">
     <img src="images/photo.jpg" alt="Image">
 </div>
@@ -64,7 +64,7 @@ Resize the browser window to see the responsive behavior of the image.
 
 Create a paragraph by using the `<p>` element.
 
-```html
+```example
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 ```
 
@@ -76,7 +76,7 @@ Use the `<h1>` to `<h6>` elements to define your headings.
 
 Add the `.uk-h1`, `.uk-h2`, `.uk-h3`, `.uk-h4`, `.uk-h5` or `.uk-h6` class to alter the size of your headings, for example have a h1 look like a h3. For additional styling options, take a look at the [Heading component](heading.md).
 
-```html
+```example
 <h1>h1 Heading 1</h1>
 <h2>h2 Heading 2</h2>
 <h3>h3 Heading 3</h3>
@@ -91,7 +91,7 @@ Add the `.uk-h1`, `.uk-h2`, `.uk-h3`, `.uk-h4`, `.uk-h5` or `.uk-h6` class to al
 
 Create an unordered list using the `<ul>` element and the `<ol>` element for ordered lists. The `<li>` element defines the list item. For additional styling options, take a look at the [List component](list.md).
 
-```html
+```example
 <ul>
     <li>Item 1</li>
     <li>Item 2
@@ -116,7 +116,7 @@ Create an unordered list using the `<ul>` element and the `<ol>` element for ord
 
 Create a description list using the `<dl>` element. Use `<dt>` to define the term and `<dd>` for the description. For additional styling options, take a look at the [Description List component](description-list.md).
 
-```html
+```example
 <dl>
     <dt>Description lists</dt>
     <dd>A description list defines terms and their corresponding descriptions.</dd>
@@ -133,7 +133,7 @@ Create a description list using the `<dl>` element. Use `<dt>` to define the ter
 
 Create a horizontal rule by using the `<hr>` element. For additional styling options, take a look at the [Divider component](divider.md).
 
-```html
+```example
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
@@ -149,7 +149,7 @@ Create a horizontal rule by using the `<hr>` element. For additional styling opt
 
 To quote multiple lines of content from another source within your document, use the `<blockquote>` element.
 
-```html
+```example
 <blockquote cite="#">
     <p class="uk-margin-small-bottom">The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a footer or cite element.</p>
     <footer>Someone famous in <cite><a href="#">Source Title</a></cite></footer>
@@ -164,7 +164,7 @@ For multiple lines of code, use the `<pre>` element. It creates a new text block
 
 **Note** Be sure to escape any angle brackets to make sure enclosed code is not interpreted as markup.
 
-```html
+```example
 <pre><code>// Code example
 &lt;div id="myid" class="myclass" hidden&gt;
     Lorem ipsum &lt;strong&gt;dolor&lt;/strong&gt; sit amet, consectetur adipiscing elit.
