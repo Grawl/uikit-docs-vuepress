@@ -1,5 +1,6 @@
 const hljs = require('highlight.js')
 const { example } = require('./utils')
+const sidebar = require('./sidebar')
 module.exports = {
 	dest: 'dist',
 	extendMarkdown: md => {
@@ -34,5 +35,6 @@ module.exports = {
 			{ text: 'Changelog', link: 'https://getuikit.com/changelog' },
 			{ text: 'Download', link: 'https://getuikit.com/download' },
 		],
+		sidebar,
 	},
 }
