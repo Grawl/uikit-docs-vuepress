@@ -114,6 +114,8 @@ export default {
 
   beforeMount () {
     const UIkit = require('uikit')
+    const Icons = require('uikit/dist/js/uikit-icons')
+    UIkit.use(Icons)
     window.UIkit = UIkit
   },
 
